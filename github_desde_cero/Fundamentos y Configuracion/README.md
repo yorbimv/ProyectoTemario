@@ -97,20 +97,4 @@ El Módulo II se centrará en el manejo de ramas (`git branch`), el flujo de tra
 
 ---
 
-## 3. Comandos para Sincronizar (Terminal de Mac)
 
-Una vez que guardes el contenido en el archivo, debes subirlo a tu rama de trabajo:
-
-```bash
-# Asegúrate de estar en el directorio raíz (ProyectoTemario)
-cd ~/Proyectos/ProyectoTemario
-
-# 1. Prepara la nueva carpeta y el archivo
-git add .
-
-# 2. Guarda los cambios con un mensaje claro
-git commit -m "docs: Agregado modulo 1 de GitHub con fundamentos y configuracion"
-
-# 3. Sube los cambios a la rama remota
-git push origin github_desde_cero
-```
