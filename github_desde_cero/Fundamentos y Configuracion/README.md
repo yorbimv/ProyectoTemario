@@ -61,6 +61,47 @@ Hay dos formas de iniciar un proyecto con Git:
 | **Iniciación Local** | Creas la carpeta localmente y la preparas para Git. | **`git init`**                  |
 | **Desde la Web**     | Creas el repositorio en GitHub y lo descargas.      | **`git clone [URL]`**           |
 
+### 2.3. Configuración Inicial Práctica (L5 y L6)
+
+Antes de empezar a trabajar en un proyecto, debemos configurar tu identidad y crear el espacio de trabajo.
+
+#### 2.3.1. Preparación del Entorno (Mac Terminal)
+
+| Paso                    | Comando (Terminal de Mac) | Propósito                                                                                     |
+| :---------------------- | :------------------------ | :-------------------------------------------------------------------------------------------- |
+| **1. Crear Carpeta**    | `mkdir hello-git`         | Crea una nueva carpeta para el primer proyecto.                                               |
+| **2. Entrar a Carpeta** | `cd hello-git`            | Navega al directorio recién creado.                                                           |
+| **3. Inicializar Git**  | `git init`                | Convierte la carpeta `hello-git` en un repositorio de Git (crea el archivo oculto `.git`).    |
+| **4. Abrir en Editor**  | `code .`                  | **(Requiere VS Code)** Abre la carpeta actual en Visual Studio Code para empezar a codificar. |
+
+#### 2.3.2. Software Requerido
+
+| Software               | Descripción                      | Enlace de Descarga                                      |
+| :--------------------- | :------------------------------- | :------------------------------------------------------ |
+| **Git**                | Sistema de control de versiones. | [git-scm.com](https://git-scm.com/downloads)            |
+| **Terminal**           | Línea de comandos de macOS.      | (Preinstalada)                                          |
+| **Visual Studio Code** | Editor de código recomendado.    | [code.visualstudio.com](https://code.visualstudio.com/) |
+
+#### 2.3.3. Configurar Identidad de Git
+
+Debes decirle a Git quién eres para que tus _commits_ queden correctamente atribuidos. Esta configuración es persistente.
+
+| Configuración          | Comando (Dentro de `hello-git`)                 | Explicación                                                                       |
+| :--------------------- | :---------------------------------------------- | :-------------------------------------------------------------------------------- |
+| **Nombre de Usuario**  | `git config --global user.name "Tu Nombre"`     | Define el nombre que aparecerá como autor en todos tus commits.                   |
+| **Correo Electrónico** | `git config --global user.email "tu@email.com"` | Define el email asociado a tus commits. Debe coincidir con el que usas en GitHub. |
+
+> **¿Por qué se usa `--global`?**
+> La opción `--global` indica que esta configuración (nombre y email) se aplicará a **todos** los proyectos de Git que inicies o clones en tu máquina. Esto evita tener que configurar tu identidad repetidamente en cada nuevo repositorio. Si omitieras `--global`, la configuración solo aplicaría al repositorio actual (`hello-git`).
+
+#### 2.3.4. El Archivo `.gitconfig`
+
+Al usar `git config --global`, Git guarda esta información en un archivo de configuración central:
+
+- **Ubicación:** Se crea un archivo llamado **`.gitconfig`** en tu directorio principal (`~/`).
+- **Función:** Sirve como el registro permanente de tus preferencias globales de Git, incluyendo tu nombre, email, y alias personalizados (`git alias`).
+- **Visualización:** Puedes ver su contenido ejecutando: `cat ~/.gitconfig`
+
 ---
 
 ## 📝 3. Comandos Básicos de Git (Módulo I)
