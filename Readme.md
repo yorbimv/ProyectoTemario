@@ -30,7 +30,7 @@ Aquí se listan los cursos completados hasta la fecha, con enlaces directos a su
 
 | N°     | Tema / Curso                                                                        | Referencia Original                                                            | Estado        |
 | :----- | :---------------------------------------------------------------------------------- | :----------------------------------------------------------------------------- | :------------ |
-| **01** | **[GitHub y Git Desde Cero (Fundamentos Esenciales)](github_desde_cero/README.md)** | [MoureDev/hello-git](https://github.com/mouredev/hello-git?tab=readme-ov-file) | ✅ Completado |
+| **01** | **[GitHub y Git Desde Cero (Fundamentos Esenciales)](github_desde_cero/README.md)** | [MoureDev/hello-git](https://github.com/mouredev/hello-git?tab=readme-ov-file) | 🟡 En Proceso |
 
 ### 2. Próximos Temas a Documentar
 
