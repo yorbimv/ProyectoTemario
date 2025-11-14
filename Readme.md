@@ -35,7 +35,7 @@ Aquí se listan los cursos completados hasta la fecha, con enlaces directos a su
 ### 2. Próximos Temas a Documentar
 
 - **[PENDIENTE]** HTML y CSS Moderno
-- **[PENDIENTE]** JavaScript Básico
+- **[PENDIENTE]** Gemini
 
 ---
 

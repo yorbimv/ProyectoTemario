@@ -1,3 +1,5 @@
+![Portada del curso de GitHub y Git.](Portada_github_desde_cero.jpg)
+
 # 📚 Curso: GitHub y Git Desde Cero
 
 > **Objetivo:** Adquirir una comprensión profunda y práctica del sistema de control de versiones Git y de la plataforma de colaboración GitHub.
