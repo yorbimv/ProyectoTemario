@@ -1,4 +1,4 @@
-![Portada del curso de GitHub y Git.](Portada_github_desde_cero.jpg)
+![Portada del curso de GitHub y Git.](assets/Portada_github_desde_cero.jpg)
 
 # 📚 Curso: GitHub y Git Desde Cero
 
