@@ -1,4 +1,4 @@
-![Portada del curso de GitHub y Git.](https://github.com/yorbimv/ProyectoTemario/raw/Fundamentos/assets/Portada_github_desde_cero.jpg)
+![Portada del curso de Git y GitHub](assets/Portada_github_desde_cero.png)
 
 # 📚 Curso: GitHub y Git Desde Cero
 
