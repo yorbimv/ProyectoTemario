@@ -1,6 +1,18 @@
-# 🔰 Módulo I: Fundamentos y Configuración Inicial (Lecciones 1-6)
+# 🔰 Módulo I:
+
+## Fundamentos y Configuración Inicial (Lecciones 1-6)
 
 Este módulo cubre los cimientos teóricos del control de versiones, la importancia de Git/GitHub en el desarrollo profesional y los primeros pasos para la configuración del entorno.
+
+| Lección                                                                 | Título               | Conceptos Clave                                                               | Comandos / Notas                                                               |
+| :---------------------------------------------------------------------- | :------------------- | :---------------------------------------------------------------------------- | :----------------------------------------------------------------------------- |
+| [Introducción](#1-introducción-la-importancia-del-control-de-versiones) | Introducción         | Propósito del curso y control de versiones.                                   | ¿Que es Git? github?, Primeros pasos                                           |
+| **L1**                                                                  | Introducción a Git   | Definición de Git (DVCS), diferencia con otras herramientas.                  | Comienza la parte de Git.                                                      |
+| **L2**                                                                  | Historia de Git      | Contexto histórico y creación de Git por Linus Torvalds.                      |                                                                                |
+| **L3**                                                                  | Instalación de Git   | Proceso de instalación en diferentes sistemas operativos (Mac/Linux/Windows). | Verificar instalación: `git --version`.                                        |
+| **L4**                                                                  | Comandos Terminal    | Navegación básica (`cd`, `ls`, `mkdir`), fundamentos de la línea de comandos. | Prerrequisito esencial.                                                        |
+| **L5**                                                                  | Configuración de Git | Establecer la identidad del usuario para los _commits_.                       | `git config --global user.name "..."`, `git config --global user.email "..."`. |
+| **L6**                                                                  | `git init`           | Inicializar un repositorio local.                                             | `git init` (Crea la carpeta `.git`).                                           |
 
 ---
 
@@ -137,5 +149,3 @@ Este sub-módulo abordó las siguientes lecciones del temario principal:
 El Módulo II se centrará en el manejo de ramas (`git branch`), el flujo de trabajo esencial (`git add`, `git commit`) y la manipulación del historial.
 
 ---
-
-

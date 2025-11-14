@@ -1,24 +1,10 @@
 ![Portada del curso de Git y GitHub](assets/Portada_github_desde_cero.png)
 
+---
+
 # 📚 Curso: GitHub y Git Desde Cero
 
 > **Objetivo:** Adquirir una comprensión profunda y práctica del sistema de control de versiones Git y de la plataforma de colaboración GitHub.
-
----
-
-## 🧭 Módulo I: Fundamentos y Configuración (Lecciones 1-6)
-
-Este módulo establece la base teórica y la configuración inicial de Git en el entorno local.
-
-| Lección          | Título               | Conceptos Clave                                                               | Comandos / Notas                                                               |
-| :--------------- | :------------------- | :---------------------------------------------------------------------------- | :----------------------------------------------------------------------------- |
-| **Introducción** | Introducción         | Propósito del curso y control de versiones.                                   |                                                                                |
-| **L1**           | Introducción a Git   | Definición de Git (DVCS), diferencia con otras herramientas.                  | Comienza la parte de Git.                                                      |
-| **L2**           | Historia de Git      | Contexto histórico y creación de Git por Linus Torvalds.                      |                                                                                |
-| **L3**           | Instalación de Git   | Proceso de instalación en diferentes sistemas operativos (Mac/Linux/Windows). | Verificar instalación: `git --version`.                                        |
-| **L4**           | Comandos Terminal    | Navegación básica (`cd`, `ls`, `mkdir`), fundamentos de la línea de comandos. | Prerrequisito esencial.                                                        |
-| **L5**           | Configuración de Git | Establecer la identidad del usuario para los _commits_.                       | `git config --global user.name "..."`, `git config --global user.email "..."`. |
-| **L6**           | `git init`           | Inicializar un repositorio local.                                             | `git init` (Crea la carpeta `.git`).                                           |
 
 ---
 
