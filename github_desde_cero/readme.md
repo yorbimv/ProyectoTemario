@@ -1,6 +1,5 @@
-# 📚 Curso 01: GitHub y Git Desde Cero (Temario Detallado)
+# 📚 Curso: GitHub y Git Desde Cero
 
-> 🔗 **Referencia del Curso:** Curso Completo de Git y GitHub.
 > **Objetivo:** Adquirir una comprensión profunda y práctica del sistema de control de versiones Git y de la plataforma de colaboración GitHub.
 
 ---
