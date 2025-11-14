@@ -28,9 +28,9 @@ Aquí se listan los cursos completados hasta la fecha, con enlaces directos a su
 
 ### 1. Desarrollo Web y Fundamentos
 
-| N°     | Tema / Curso                                                                        | Referencia Original                                                            | Estado        |
-| :----- | :---------------------------------------------------------------------------------- | :----------------------------------------------------------------------------- | :------------ |
-| **01** | **[GitHub y Git Desde Cero (Fundamentos Esenciales)](github_desde_cero/README.md)** | [MoureDev/hello-git](https://github.com/mouredev/hello-git?tab=readme-ov-file) | 🟡 En Proceso |
+| N°     | Tema / Curso                                                                                                                             | Referencia Original                                                            | Estado        |
+| :----- | :--------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------- | :------------ |
+| **01** | **[GitHub y Git Desde Cero (Fundamentos Esenciales)](https://github.com/yorbimv/ProyectoTemario/blob/main/github_desde_cero/readme.md)** | [MoureDev/hello-git](https://github.com/mouredev/hello-git?tab=readme-ov-file) | 🟡 En Proceso |
 
 ### 2. Próximos Temas a Documentar
 
