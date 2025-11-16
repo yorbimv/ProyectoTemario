@@ -1,0 +1,15 @@
+# Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de Logs y Temporales
+*.log
+*.tmp
+temp/
+
+# Archivos de IDE/Editor (ej. VS Code)
+.vscode/
+
+# Dependencias (si usas Node.js, Python, etc.)
+# Si tu proyecto usa Node.js, debes ignorar esta carpeta:
+# node_modules/
