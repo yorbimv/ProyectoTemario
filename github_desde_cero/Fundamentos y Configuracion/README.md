@@ -62,7 +62,7 @@ Este apartado te guía paso a paso para instalar y configurar tu identidad, prep
 
 Te debe salir la versión actual que estás usando.
 
-![Version de Git en Mac OS](<assets/Fundamentos/assets/Version\ de\ Git\ en\ macOs.png>)
+![Version de Git en Mac OS](../assets/Version_de_Git_en_macOs.png)
 
 ### 2.2. Preparación del Entorno y Repositorio Local
 
@@ -84,7 +84,7 @@ Sigue estos pasos para crear tu primer repositorio local.
 | **2. Entrar a Carpeta** | `cd hello-git`     | Navega al directorio.                                                                                       |
 | **3. Inicializar Git**  | `git init`         | **¡Clave!** Este comando crea la subcarpeta oculta `.git/` y convierte el directorio en un repositorio Git. |
 
-![Comando git init desde terminal](assets/hello-git.png)
+![Comando git init desde terminal](../assets/hello%20git.png)
 
 > Opcional: Abrir desde terminal el Editor con el comando `code .` (requiere VS Code)
 
@@ -97,7 +97,7 @@ Antes de hacer _commits_, debes decirle a Git quién eres para que tus contribuc
 | **Nombre**    | `git config --global user.name "Tu Nombre"`     | Define el nombre que aparecerá como autor en todos tus commits.           |
 | **Correo**    | `git config --global user.email "tu@email.com"` | Define el email asociado a tus commits (debe coincidir con el de GitHub). |
 
-![Configuracion de user](assets/user-git-hub.png)
+![Configuracion de user](../assets/user%20github.png)
 
 > 📌 **Nota sobre `--global`:** Esta bandera aplica la configuración a **todos** tus futuros proyectos. Si omites `--global`, la configuración solo aplica al repositorio actual.
 
