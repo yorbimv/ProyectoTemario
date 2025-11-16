@@ -92,7 +92,33 @@ Esta configuración es **global** y se aplica a todos tus proyectos. Es tu firma
 
 > 📌 **El Archivo `.gitconfig`:** Al usar `--global`, esta información se guarda permanentemente en el archivo `.gitconfig` en tu directorio principal (`~/`).
 
----
+### 2.5. Creación de Atajos (Alias de Git)
+
+Los **alias** son atajos personalizados que creas para comandos largos y frecuentes de Git, lo que acelera tu trabajo en la Terminal. Se guardan en el mismo archivo global de configuración (`.gitconfig`).
+
+#### Cómo Crear un Alias
+
+Se usa el comando `git config` en la sección `alias`:
+
+Ejemplo:
+
+```bash
+git config --global alias.[nombre_del_alias] "[comando_completo]"
+```
+
+| Alias      | Comando Completo        | Uso (`git [alias]`) | Propósito                                                        |
+| :--------- | :---------------------- | :------------------ | :--------------------------------------------------------------- |
+| **`st`**   | `status`                | `gs`                | Muestra el estado de los archivos (más rápido que `git status`). |
+| **`co`**   | `checkout`              | `gck`               | Atajo para cambiar de ramas.                                     |
+| **`ci`**   | `commit -m`             | `gc "mensaje"`      | Atajo para crear un _commit_ con mensaje.                        |
+| **`br`**   | `branch`                | `gbr`               | Lista las ramas.                                                 |
+| **`tree`** | `log --oneline --graph` | `git lo`            | Muestra el historial de _commits_ de forma compacta y visual.    |
+
+Para visualizar los alias
+
+```bash
+git config --global --get-regexp alias`
+```
 
 <a id="3-buenas-prácticas-mensajes-de-commit"></a>
 
