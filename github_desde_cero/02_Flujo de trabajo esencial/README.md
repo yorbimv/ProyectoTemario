@@ -173,6 +173,15 @@ Este comando es más poderoso y **peligroso**, ya que reescribe la historia. Sol
 | `git reset --mixed [HASH]` | Deshace el _commit_ **Y** los saca del Staging Area, enviándolos al Working Directory (quedan en rojo).        | Opción por defecto, limpia el Staging.               |
 | `git reset --hard [HASH]`  | **¡Peligroso!** Deshace el _commit_ **Y** elimina los cambios del Working Directory.                           | Borra permanentemente tu trabajo desde ese _commit_. |
 
+### 3.4 Limpieza de Archivos No Rastreados (`git clean`) - L18
+
+Este comando elimina archivos que están en tu **Working Directory** pero que Git no está rastreando (archivos temporales, compilados, etc.).
+
+| Comando        | Propósito                                                                                                          | Nota de Seguridad                         |
+| :------------- | :----------------------------------------------------------------------------------------------------------------- | :---------------------------------------- |
+| `git clean -n` | **(Safe Mode)** Muestra una vista previa de los archivos que serían eliminados. **¡Siempre ejecuta esto primero!** |                                           |
+| `git clean -f` | **(Forzado)** Elimina todos los archivos no rastreados del directorio.                                             | Borra archivos sin pasar por la papelera. |
+
 > 🔑 **Clave:** En todos los casos, el `HASH/ID` es el identificador del _commit_ al que quieres **volver**.
 
 ---
@@ -181,7 +190,7 @@ Este comando es más poderoso y **peligroso**, ya que reescribe la historia. Sol
 
 ## 📝 4. Comandos Esenciales (Módulo II)
 
-Esta tabla consolida todos los comandos vistos en el Módulo II.
+Esta tabla consolida todos los comandos vistos en el Módulo II (Flujo Básico, Ramas y Manipulación).
 
 | Comando                   | Descripción Breve                                                         | Categoría    |
 | :------------------------ | :------------------------------------------------------------------------ | :----------- |
@@ -194,10 +203,8 @@ Esta tabla consolida todos los comandos vistos en el Módulo II.
 | `git revert [HASH]`       | **Seguro:** Deshace un commit anterior creando un nuevo commit.           | Manipulación |
 | `git reset --hard [HASH]` | **Peligroso:** Elimina permanentemente los commits y los cambios locales. | Manipulación |
 
----
-
 ## 🚀 Próximo Paso: Módulo III
 
 Con el Módulo II concluido, has dominado el flujo de trabajo esencial (`add/commit/branch/merge`) y la manipulación del historial.
 
-El Módulo III se centrará en la **Conexión Remota**, es decir, cómo subir (`git push`) y bajar (`git pull` / `git fetch`) tu trabajo a GitHub, el trabajo con repositorios remotos y la creación de _Pull Requests_.
+El **Módulo III** se centrará en la **Conexión Remota**, es decir, cómo subir (`git push`) y bajar (`git pull` / `git fetch`) tu trabajo a GitHub, el trabajo con repositorios remotos y la creación de _Pull Requests_.

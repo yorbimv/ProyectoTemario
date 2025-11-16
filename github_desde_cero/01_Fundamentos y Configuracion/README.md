@@ -102,7 +102,9 @@ Se usa el comando `git config` en la sección `alias`:
 
 Ejemplo:
 
-> git config --global alias.[nombre_del_alias] "[comando_completo]"
+```bash
+git config --global alias.[nombre_del_alias] "[comando_completo]"
+```
 
 | Alias      | Comando Completo        | Uso (`git [alias]`) | Propósito                                                        |
 | :--------- | :---------------------- | :------------------ | :--------------------------------------------------------------- |
@@ -114,7 +116,9 @@ Ejemplo:
 
 Para visualizar los alias
 
-> `git config --global --get-regexp alias`
+```bash
+git config --global --get-regexp alias`
+```
 
 <a id="3-buenas-prácticas-mensajes-de-commit"></a>
 
