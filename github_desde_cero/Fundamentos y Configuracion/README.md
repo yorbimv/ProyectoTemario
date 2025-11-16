@@ -62,7 +62,7 @@ Este apartado te guía paso a paso para instalar y configurar tu identidad, prep
 
 Te debe salir la versión actual que estás usando.
 
-![Version de Git en Mac OS](assets/Version_de_Git_en_macOs.png)
+![Version de Git en Mac OS](<assets/Fundamentos/assets/Version\ de\ Git\ en\ macOs.png>)
 
 ### 2.2. Preparación del Entorno y Repositorio Local
 
