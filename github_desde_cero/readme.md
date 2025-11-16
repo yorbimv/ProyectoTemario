@@ -8,7 +8,13 @@
 
 ---
 
-## 🌳 Módulo II: Flujo de Trabajo Local y Versiones (Lecciones 7-22)
+### [Modulo I : Fundamentos y Configuración Inicial (Lecciones 1-6)](https://github.com/yorbimv/ProyectoTemario/tree/main/github_desde_cero/Fundamentos%20y%20Configuracion/#modulo-I)
+
+### Módulo II: Flujo de Trabajo Local y Versiones (Lecciones 7-22)
+
+### Módulo III: GitHub y Colaboración Remota (Lecciones 23-39)
+
+### Módulo IV: Herramientas Avanzadas y Flujos de Trabajo (Lecciones 40-45)
 
 Enfoque en cómo rastrear, guardar, revertir y organizar el historial de versiones en tu máquina.
 
