@@ -1,5 +1,5 @@
 # Archivos de Sistema Operativo
-.DS_Store
+**/.DS_Store   #No importa donde esta, siempre se va a ignorar
 Thumbs.db
 
 # Archivos de Logs y Temporales
