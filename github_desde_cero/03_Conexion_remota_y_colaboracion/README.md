@@ -57,9 +57,12 @@ Envía los _commits_ locales al repositorio remoto.
 
 ### 2.1.1 🔑 Significado y Propósito de -u
 
-Cuando ejecutas `git push -u origin main` por primera vez:Sube los commits: Envía los commits de tu rama local (main) al repositorio remoto (origin).
+Cuando ejecutas `git push -u origin main` por primera vez:
 
-Establece Seguimiento (-u): Le dice a Git: "De ahora en adelante, asume que mi rama local main está directamente relacionada con la rama remota origin/main".
+- Sube los commits: Envía los commits de tu rama local (main) al repositorio remoto (origin).
+
+- Establece Seguimiento (-u):
+  - Le dice a Git: "De ahora en adelante, asume que mi rama local main está directamente relacionada con la rama remota origin/main".
 
 #### Beneficio Práctico
 
